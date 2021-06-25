@@ -15,3 +15,14 @@
 	width: 80%;
 	margin: auto;
 }
+
+header{
+    height: 140px;
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+}
+
+.section-top{
+    height: 490px;
+    background-color: coral;
+}
