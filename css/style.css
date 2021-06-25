@@ -20,6 +20,7 @@ header{
     height: 140px;
     background-color: blanchedalmond;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .section-top{
@@ -28,8 +29,10 @@ header{
     margin-bottom: 20px;
 }
 
+/* sfondo tra le colonne */
 .colonne{
     background-color: #f8f550;
+    padding-bottom: 20px;
 }
 
 .row{
@@ -52,4 +55,11 @@ header{
 	width: calc(60% - 40px);
 	margin: 0 20px;
     height: 500PX;
+}
+
+footer{
+    height: 60px;
+    background-color: violet;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
