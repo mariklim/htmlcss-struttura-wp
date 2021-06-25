@@ -19,10 +19,37 @@
 header{
     height: 140px;
     background-color: blanchedalmond;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .section-top{
-    height: 490px;
+    height: 400px;
     background-color: coral;
+    margin-bottom: 20px;
+}
+
+.colonne{
+    background-color: #f8f550;
+}
+
+.row{
+    height: 80px;
+    background-color: lightseagreen;
+    margin-bottom: 20PX;
+}
+
+.col-left, .col-right, .col-center {
+	float: left;
+}
+
+.col-left, .col-right {
+	background-color: rgb(0, 247, 255);
+	width: 20%;
+    height: 500PX;
+}
+.col-center {
+	background-color: pink;
+	width: calc(60% - 40px);
+	margin: 0 20px;
+    height: 500PX;
 }
